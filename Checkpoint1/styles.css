@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+} */
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba(184, 183, 183, 1);
+  color: whitesmoke;
+}
+
+header nav img {
+  height: 13vh;
+  border-radius: 100%;
+}
+
+
+body {
+  background-color: #565E60;
+  scroll-behavior: smooth;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.672), rgba(0, 0, 0, 0.275)), url("https://data.1freewallpapers.com/download/code-programming-text-technology.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 2em 10%;
+
+}
+
+.item {
+  width: 30em;
+  background-color: rgba(146, 146, 146, 0.727);
+  box-sizing: border-box;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  color: #f7f7f7;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h2 {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+.item:hover {
+  transition: ease-in-out .5s;
+  cursor: pointer;
+  transform: scale(1.02);
+  filter: brightness(120%);
+  /*A tag hover é uma pseu-divisão que aplica estilos de efeito*/
+}
+
+input {
+  transition: ease-in-out .5s;
+  cursor: pointer;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+input:focus {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgba(0, 0, 0, 0.857));
+  color: #f7f7f7;
+}
+
+button {
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
